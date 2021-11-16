@@ -10,10 +10,10 @@ second_num = int(input("input second number : "))
 sign = str(input("input sign : "))  
 
 if(sign == "+"):
-	print("Result = " + Integer.toString(first_num + second_num))
+	print("Result = " + str(first_num + second_num))
 elif(sign == "-"):
-	print("Result = " + Integer.toString(first_num - second_num))
+	print("Result = " + str(first_num - second_num))
 elif(sign == "*"):
-	print("Result = " + Integer.toString(first_num * second_num))
+	print("Result = " + str(float(first_num) * float(second_num)))
 elif(sign == "/"):
-	print("Result = " + Integer.toString(first_num / second_num))
+	print("Result = " + str(float(first_num) / float(second_num)))
